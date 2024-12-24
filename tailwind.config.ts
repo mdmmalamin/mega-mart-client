@@ -11,6 +11,13 @@ export default {
       fontFamily: {
         hankenGrotesk: ["Hanken Grotesk", "sans-serif"],
       },
+      colors: {
+        primary: "#008ECC",
+        secondary: "#F3F9FB",
+        accent: "#666666",
+        light: "#F5F5F5",
+        line: "#D9D9D9",
+      },
     },
   },
   plugins: [],
