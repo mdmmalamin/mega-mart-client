@@ -6,7 +6,7 @@ const layout = ({ children }: { children: ReactNode }) => {
   return (
     <>
       <NavbarContainer />
-      <main>{children}</main>
+      <main className="space-y-[120px] my-[120px]">{children}</main>
       <FooterContainer />
     </>
   );
