@@ -1,17 +1,26 @@
+"use client";
 
 import Container from "@/components/layouts/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
 import ViewAll from "@/components/ui/ViewAll";
+import SmartphoneCard from "./SmartphoneCard";
 
 const GrabTheBestDealOnSmartphonesContainer = () => {
   return (
     <Container>
-      <div className="flex flex-col items-center justify-between">
+      <div className="flex items-center justify-between border-b">
         <SectionTitle text="Grab The Best Deal On" colorText="Smartphones" />
 
         <ViewAll />
       </div>
-      <hr />
+
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center gap-4 mt-4">
+        <SmartphoneCard />
+        <SmartphoneCard />
+        <SmartphoneCard />
+        <SmartphoneCard />
+        <SmartphoneCard />
+      </div>
     </Container>
   );
 };
