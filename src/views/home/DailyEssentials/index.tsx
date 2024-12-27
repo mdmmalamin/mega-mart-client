@@ -5,7 +5,7 @@ import ViewAll from "@/components/ui/ViewAll";
 const DailyEssentialsContainer = () => {
   return (
     <Container>
-      <div className="flex items-center justify-between border-b">
+      <div className="flex items-center justify-between border-b my-10">
         <SectionTitle text="Daily" colorText="Essentials" />
 
         <ViewAll />

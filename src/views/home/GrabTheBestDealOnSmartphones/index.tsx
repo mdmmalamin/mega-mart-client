@@ -8,7 +8,7 @@ import SmartphoneCard from "./SmartphoneCard";
 const GrabTheBestDealOnSmartphonesContainer = () => {
   return (
     <Container>
-      <div className="flex items-center justify-between border-b">
+      <div className="flex items-center justify-between border-b my-10">
         <SectionTitle text="Grab The Best Deal On" colorText="Smartphones" />
 
         <ViewAll />
